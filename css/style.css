@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.product-img-desktop {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.img-main-content {
+  margin-top: 20px;
+  padding: 15px;
+  min-width: 260px;
+  height: 30%;
+}
+
+.product-img-mobile {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border-radius: 5px 5px 0 0;
+}
+
+.main-content {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-text {
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.producti {
+  padding: 0 0 0 15px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.product-name {
+  padding: 15px;
+  font-size: 32px;
+  text-align: justify;
+  font-weight: bolder;
+}
+
+.product-description {
+  padding: 15px;
+  font-size: 22px;
+  text-align: justify;
+  color: #696b6a;
+}
+
+.price {
+  display: inline;
+  padding: 15px;
+}
+.price.new {
+  font-size: 50px;
+  font-weight: bold;
+  color: #07853d;
+}
+.price.old {
+  text-decoration: line-through;
+  font-size: 20px;
+  color: gray;
+}
+
+.btn-buy {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.btn-buy .btn {
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  background-color: #07853d;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-buy .btn:hover {
+  background-color: #2f5c02;
+}
+.btn-buy .icon-button {
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .product-img-mobile {
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  .product-img-desktop {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    border-radius: 5px 0 0 5px;
+  }
+  .container {
+    background-color: #e1f2e6;
+  }
+  .main-content {
+    flex-direction: row;
+  }
+  .container {
+    align-items: center;
+  }
+  .product-text {
+    border-radius: 5px;
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+  .img-main-content {
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 400px;
+  }
+  .btn-buy {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

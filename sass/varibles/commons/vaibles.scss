@@ -1,0 +1,23 @@
+// colors
+$btn-color: #07853d;
+$price-new-color: #07853d;
+$price-old-color: gray;
+$description-color: #696b6a;
+$btn-color-text: white;
+$btn-hover: #2f5c02;
+$background: #e1f2e6;
+@mixin texte-options($font-size, $text-align, $padding) {
+  padding: $padding;
+  font-size: $font-size;
+  text-align: $text-align;
+}
+@mixin display-options($height, $width, $display) {
+  height: $height;
+  width: $width;
+  display: $display;
+}
+@mixin img-options($height-img, $width-img, $opacity) {
+  height: $height-img;
+  width: $width-img;
+  opacity: $opacity;
+}
