@@ -125,20 +125,30 @@
   .product-text {
     border-radius: 5px;
     background-color: white;
-    height: 250px;
+    height: 800px;
     width: 300px;
     margin-bottom: 0;
     margin-top: 15px;
   }
-  .img-main-content {
-    padding: 0;
-    margin: 0;
-    height: 500px;
-    width: 400px;
-  }
-  .btn-buy {
-    margin-top: 50px;
-  }
+}
+.btn-buy {
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+.product-description {
+  background-color: white;
+}
+
+.img-main-content {
+  padding: 0;
+  margin: 0;
+  height: 480px;
+  width: 400px;
+}
+
+.btn-buy {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
